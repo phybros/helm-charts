@@ -2,7 +2,8 @@
 
 <img src="https://github.com/bjw-s/bjw-s/blob/main/_assets/images/logo.jpg?raw=true" align="left" width="144px" height="144px"/>
 
-## helm-charts
+This repo contains Helm charts that I have developed to run applications in my
+[home Kubernetes cluster](https://github.com/phybros/k3s-cluster).
 
 </div>
 
@@ -26,14 +27,14 @@ This repo is **not** intended to be a replacement for any of the large collectio
 The Helm repository can be installed as follows:
 
 ```console
-helm repo add bjw-s https://bjw-s.github.io/helm-charts
+helm repo add phybros https://phybros.github.io/helm-charts
 ```
 
-You can then run `helm search repo bjw-s` to search the charts.
+You can then run `helm search repo phybros` to search the charts.
 
 ---
 
-### 📖 Docs
+Documentation can be found [here](https://phybros.github.io/helm-charts/docs/).
 
 The documentation that goes along with this repo can be found [over here](https://bjw-s.github.io/helm-charts/).
 
