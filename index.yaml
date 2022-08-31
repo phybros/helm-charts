@@ -1,5 +1,48 @@
 apiVersion: v1
 entries:
+  app-template:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: added
+          description: Automatically set `global.nameOverride` to release name
+    apiVersion: v2
+    created: "2022-08-31T02:41:58.921495612Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s.github.io/helm-charts
+      version: 0.1.0
+    description: A common powered chart template. This can be useful for small projects
+      that don't have their own chart.
+    digest: 90878b7c3349d8a452f7f3c685788a325fbd39072758e5d6763c922ea0a6e1ae
+    maintainers:
+    - email: me@bjw-s.dev
+      name: bjw-s
+    name: app-template
+    urls:
+    - https://phybros.github.io/helm-charts/other/app-template-0.1.1.tgz
+    version: 0.1.1
+  common:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Initial version
+    apiVersion: v2
+    created: "2022-08-31T02:41:58.914897079Z"
+    description: Function library for Helm charts
+    digest: e1a711528aedf4b4d483eaf24f8e401da26dddce59a4392a65e7e4886dbf6f29
+    home: https://github.com/bjw-s/helm-charts/tree/main/charts/library/common
+    keywords:
+    - common
+    - library
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: me@bjw-s.dev
+      name: bjw-s
+    name: common
+    type: library
+    urls:
+    - https://phybros.github.io/helm-charts/library/common-0.1.0.tgz
+    version: 0.1.0
   seafile:
   - annotations:
       artifacthub.io/changes: |-
@@ -7,7 +50,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: 8.0.7
-    created: "2022-08-30T23:03:06.723608732Z"
+    created: "2022-08-31T02:41:58.912598067Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -17,7 +60,7 @@ entries:
       repository: https://charts.bitnami.com/bitnami
       version: 11.0.14
     description: seafile helm package
-    digest: 29c4fbb5f90306b892e5b2df3c8940abdcd64f812e1e957c5d9f427982bad7ed
+    digest: 9a1c2935f5ee00765ff018c93234f124c03dfbb0e0252aa2894e2f15187d1b43
     home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/seafile
     icon: https://manual.seafile.com/media/seafile-transparent-1024.png
     keywords:
@@ -30,6 +73,6 @@ entries:
     sources:
     - https://github.com/haiwen/seafile-docker
     urls:
-    - https://bjw-s.github.io/helm-charts/apps/seafile-3.1.2.tgz
+    - https://phybros.github.io/helm-charts/apps/seafile-3.1.2.tgz
     version: 3.1.2
-generated: "2022-08-30T23:03:06.71455566Z"
+generated: "2022-08-31T02:41:58.904912227Z"
