@@ -1,6 +1,6 @@
 # Welcome
 
-Welcome to the documentation for the [bjw-s Helm charts](https://github.com/bjw-s/helm-charts) project.
+Welcome to the documentation for the [phybros Helm charts](https://github.com/phybros/helm-charts) project.
 
 ## Getting started
 
@@ -11,10 +11,10 @@ Refer to Helm's [documentation](https://helm.sh/docs/) to get started.
 ## Installation
 
 ```sh
-helm repo add bjw-s http://bjw-s.github.io/helm-charts/
+helm repo add phybros http://phybros.github.io/helm-charts/
 ```
 
-You can then run `helm search repo bjw-s` to search the charts.
+You can then run `helm search repo phybros` to search the charts.
 
 ## How do I find people running Kubernetes at home?
 
@@ -25,10 +25,8 @@ Join the k8s-at-home [Discord](https://discord.gg/sTMX7Vh) community on Discord.
 ### Repository topics
 
 Have a look at people running Kubernetes at home
-[on GitHub](https://github.com/topics/k8s-at-home?o=desc&s=updated) and
-<!-- Disable link check because it requires login -->
-<!-- markdown-link-check-disable-next-line -->
-[on GitLab](https://gitlab.com/search?search=k8s-at-home).
+[on GitHub](https://github.com/topics/k8s-at-home?o=desc&s=updated) and 
+[on the k8s-at-home search](https://nanne.dev/k8s-at-home-search/#/)
 
 ### Awesome Home Kubernetes
 
