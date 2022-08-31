@@ -16,8 +16,8 @@ maintainers:
     email: 1985132+phybros@users.noreply.github.com
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
-    version: 4.5.2
+    repository: https://phybros.github.io/helm-charts
+    version: 0.1.0
   - name: mariadb
     version: 11.0.14
     repository: https://charts.bitnami.com/bitnami
