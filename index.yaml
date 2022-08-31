@@ -6,7 +6,7 @@ entries:
         - kind: added
           description: Automatically set `global.nameOverride` to release name
     apiVersion: v2
-    created: "2022-08-31T02:41:58.921495612Z"
+    created: "2022-08-31T03:12:40.074309979Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -27,7 +27,7 @@ entries:
         - kind: changed
           description: Initial version
     apiVersion: v2
-    created: "2022-08-31T02:41:58.914897079Z"
+    created: "2022-08-31T03:12:40.069856429Z"
     description: Function library for Helm charts
     digest: e1a711528aedf4b4d483eaf24f8e401da26dddce59a4392a65e7e4886dbf6f29
     home: https://github.com/bjw-s/helm-charts/tree/main/charts/library/common
@@ -50,17 +50,17 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: 8.0.7
-    created: "2022-08-31T02:41:58.912598067Z"
+    created: "2022-08-31T03:12:40.064729072Z"
     dependencies:
     - name: common
-      repository: https://library-charts.k8s-at-home.com
-      version: 4.5.2
+      repository: https://phybros.github.io/helm-charts
+      version: 0.1.0
     - condition: mariadb.enabled
       name: mariadb
       repository: https://charts.bitnami.com/bitnami
       version: 11.0.14
     description: seafile helm package
-    digest: 9a1c2935f5ee00765ff018c93234f124c03dfbb0e0252aa2894e2f15187d1b43
+    digest: c923d21d79dcb3f0ee485340e1c44989462950788a46f820bb763e0ad32d6a12
     home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/seafile
     icon: https://manual.seafile.com/media/seafile-transparent-1024.png
     keywords:
@@ -75,4 +75,4 @@ entries:
     urls:
     - https://phybros.github.io/helm-charts/apps/seafile-3.1.2.tgz
     version: 3.1.2
-generated: "2022-08-31T02:41:58.904912227Z"
+generated: "2022-08-31T03:12:40.054711561Z"
