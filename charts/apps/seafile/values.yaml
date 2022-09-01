@@ -9,7 +9,7 @@ image:
   # -- image repository
   repository: seafileltd/seafile-mc
   # -- image tag
-  tag: 8.0.7
+  tag: 9.0.7
   # -- image pull policy
   pullPolicy: IfNotPresent
 
