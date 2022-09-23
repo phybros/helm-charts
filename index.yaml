@@ -6,7 +6,7 @@ entries:
         - kind: added
           description: Automatically set `global.nameOverride` to release name
     apiVersion: v2
-    created: "2022-09-01T03:49:46.35236241Z"
+    created: "2022-09-23T12:57:44.899765233Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -27,7 +27,7 @@ entries:
         - kind: changed
           description: Initial version
     apiVersion: v2
-    created: "2022-09-01T03:49:46.348990802Z"
+    created: "2022-09-23T12:57:44.896632716Z"
     description: Function library for Helm charts
     digest: e1a711528aedf4b4d483eaf24f8e401da26dddce59a4392a65e7e4886dbf6f29
     home: https://github.com/bjw-s/helm-charts/tree/main/charts/library/common
@@ -47,10 +47,10 @@ entries:
   - annotations:
       artifacthub.io/changes: |-
         - kind: changed
-          description: Updated app to seafile 9.0.7
+          description: Updated app to seafile 9.0.9
     apiVersion: v2
-    appVersion: 9.0.7
-    created: "2022-09-01T03:49:46.346741696Z"
+    appVersion: 9.0.9
+    created: "2022-09-23T12:57:44.893936602Z"
     dependencies:
     - name: common
       repository: https://phybros.github.io/helm-charts
@@ -60,7 +60,7 @@ entries:
       repository: https://charts.bitnami.com/bitnami
       version: 11.0.14
     description: seafile helm package
-    digest: ab5e8e87edab31a1251097dc7b70369bb6a9840a63965ac85dd1d89e3d6a8423
+    digest: 9413a1a2d83f27793fe789dd4bd08cde08453ff743afa8377de795ba8ce8d20c
     home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/seafile
     icon: https://manual.seafile.com/media/seafile-transparent-1024.png
     keywords:
@@ -81,7 +81,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: 8.0.7
-    created: "2022-09-01T03:49:46.340313381Z"
+    created: "2022-09-23T12:57:44.884173049Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -106,4 +106,4 @@ entries:
     urls:
     - https://phybros.github.io/helm-charts/apps/seafile-3.1.2.tgz
     version: 3.1.2
-generated: "2022-09-01T03:49:46.33148056Z"
+generated: "2022-09-23T12:57:44.875440202Z"
