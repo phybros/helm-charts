@@ -29,11 +29,6 @@ jobs:
           token: ${{ steps.get-app-token.outputs.token }}
           fetch-depth: 0
 
-      - name: Build docs
-        uses: docker://ghcr.io/bjw-s/mdbook:0.4.28@sha256:a8a45bc791374befc91e0936c4e2cb654b8e78b2beefb3c4d061e871ab94a83c
-        with:
-          args: bash -c "cd docs && mdbook build"
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3.9.2
         if: ${{ github.ref == 'refs/heads/main' }}
